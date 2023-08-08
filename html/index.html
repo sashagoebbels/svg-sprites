@@ -1,5 +1,21 @@
 <html>
+  <head>
+    <style>
+      body {
+          font-family: sans-serif;
+          padding: 12%;
+          text-align: center;
+      }
+      svg {
+          display: inline-block;
+          height: 12em;
+          width: 12em;
+      }
+    </style>
+  </head>
   <body>
     <h1>SVG Sprite Test</h1>
+    <svg role="img"><use xlink:href="./sprites.svg#unicorn" /></svg>
+    <svg role="img"><use xlink:href="./sprites.svg#rainbow" /></svg>
   </body>
 </html>
